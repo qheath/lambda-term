@@ -1,0 +1,11 @@
+diff --git a/src/lTerm.ml b/src/lTerm.ml
+--- a/src/lTerm.ml
++++ b/src/lTerm.ml
+@@ -144,6 +144,7 @@ let colors_of_term = function
+   | "screen-256color-bce" -> 256
+   | "screen-256color-bce-s" -> 256
+   | "screen-256color-s" -> 256
++  | "tmux-256color" -> 256
+   | "st-256color" -> 256
+   | "vte-256color" -> 256
+   | "xterm-256color" -> 256
